@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--vorname, nachname, geburtsort, alter, wohnort-->
+
+    <div>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" placeholder="First name"><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Last name"><br>
+        <label for="bp">Birthplace:</label>
+        <input type="text" id="bp" name="bp" placeholder="Birthplace"><br>
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" placeholder="Age"><br>
+        <label for="domicile">Domicile:</label>
+        <input type="text" id="domicile" name="domicile" placeholder="domicile"><br>
+        <input type="submit" value="Send" onclick="arrow_fn_send_data(
+            document.getElementById('fname').value,
+            document.getElementById('lname').value,
+            document.getElementById('bp').value,
+            document.getElementById('age').value,
+            document.getElementById('domicile').value
+        )">
+    </div>
+    <textarea name="" id="idTextAreaOutput" cols="30" rows="10" style="display:none"></textarea>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+div {
+    display: grid;
+    grid-template-columns: 290px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-top: 5vh;
+    padding: 5px;
+}
+
+body>form>input[type=submit]:nth-child(16) {
+    width: 200px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea {
+    margin-top: 5vh;
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
